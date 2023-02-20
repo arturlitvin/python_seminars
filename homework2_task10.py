@@ -9,7 +9,6 @@
 n = int(input('Введите кол-во монет: '))
 a = 0
 b = 0
-min_count = 0
 for i in range(n):
     x = int(input('Введите сторону монеты (0-Орел, 1 - Решка): '))
     if x == 0:
@@ -19,8 +18,7 @@ for i in range(n):
     else:
         print('Нужно было ввести 0 или 1. Перезапустите программу')
         break
-if a < b:
-    min_count = a
-else:
-    min_count = b
-print(min_count)
+count = a
+if a > b:
+    count = b
+print(count)
