@@ -6,12 +6,13 @@
 # m = 750
 # Output:
 # 2
+
 # import math
 
 # n = int(input('Введите расстояние за день: '))
 # m = int(input('Введите общее расстояние: '))
-# d = (m//n)
-# print(d)
+# d = (m / n)
+# # print(d)
 # print(math.ceil(d))
 
 # n = int(input('Введите расстояние за день: '))
@@ -115,9 +116,9 @@
 # если его номер кратен 4, но не кратен 100, а также если он кратен 400.
 
 
-year = int(input('Введите год, который хотите проверить на високосность: '))
-if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
-    print('YES')
-else: print('No')
-# Input: 2016
-# Output: YES
+# year = int(input('Введите год, который хотите проверить на високосность: '))
+# if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+#     print('YES')
+# else: print('No')
+# # Input: 2016
+# # Output: YES
