@@ -84,9 +84,9 @@
 # Примечание: Пользователь может вводить значения
 # списка или список задан изначально.
 
-# arr = [0, -1, 5, 2, 3]
-# count = 0
-# for i in range(1, len(arr)):
-#     if arr[i-1] < arr[i]:
-#         count += 1
-# print(count)
+arr = [0, -1, 5, 2, 3]
+count = 0
+for i in range(1, len(arr)):
+    if arr[i-1] < arr[i]:
+        count += 1
+print(count)
