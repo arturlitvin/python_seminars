@@ -20,8 +20,25 @@
 # ноутбук
 # Вывод:
 # 12
+alphabet = {1: "AEIOULNSTRАВЕИНОРСТ",
+            2: "DGДКЛМПУ",
+            3: "BCMPБГЁЬЯ",
+            4: "FHVWYЙЫ",
+            5: "KЖЗХЦЧ",
+            8: "JXШЭЮ",
+            10: "QZФЩЪ"
+            }
+word = input('Введите слово: ').upper()
+points = 0
+for letter in word:
+    for key, value in alphabet.items():
+        if letter in value:
+            points += key
+print("Кол-во ваших очков: ", points)
+exit()
 
-list_1 = ['A', 'E', 'I', 'O', 'U', 'L', 'N', 'S', 'T', 'R', 'А', 'В', 'Е', 'И', 'Н', 'О', 'Р', 'С', 'Т']
+list_1 = ['A', 'E', 'I', 'O', 'U', 'L', 'N', 'S', 'T',
+          'R', 'А', 'В', 'Е', 'И', 'Н', 'О', 'Р', 'С', 'Т']
 list_2 = ['D', 'G', 'Д', 'К', 'Л', 'М', 'П', 'У']
 list_3 = ['B', 'C', 'M', 'P', 'Б', 'Г', 'Ё', 'Ь', 'Я']
 list_4 = ['F', 'H', 'V', 'W', 'Y', 'Й', 'Ы']
