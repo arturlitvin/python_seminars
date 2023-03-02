@@ -85,11 +85,4 @@
 
 # print(rev(int(input('Введите число: '))))
 
-def degree(a, b):
-    if b == 0:
-        return 1
-    return a*(degree(a,b-1))
 
-a = int(input('Введите целое число: '))
-b = int(input('Введите интересующую Вас степень ранее введённого числа: '))
-print(f"{a} в {b}-й степени  равно {degree(a,b)}")
