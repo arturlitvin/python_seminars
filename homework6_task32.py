@@ -14,4 +14,4 @@ print(my_list)
 
 for i in range(len(my_list)):
     if min_number <= my_list[i] <= max_number:
-        print(i)
+        print(i, end=' ')
